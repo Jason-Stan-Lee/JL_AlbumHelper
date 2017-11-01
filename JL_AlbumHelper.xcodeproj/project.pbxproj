@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1EF177E1FA9750500F67C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EF177D1FA9750500F67C06 /* Assets.xcassets */; };
+		A1EF17841FA9750500F67C06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF17831FA9750500F67C06 /* main.m */; };
+		A1EF178E1FA9750600F67C06 /* JL_AlbumHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF178D1FA9750600F67C06 /* JL_AlbumHelperTests.m */; };
+		A1EF17991FA9750600F67C06 /* JL_AlbumHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF17981FA9750600F67C06 /* JL_AlbumHelperUITests.m */; };
+		A1EF17BE1FA9756200F67C06 /* JL_MainViewControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF17AB1FA9756200F67C06 /* JL_MainViewControllerManager.m */; };
+		A1EF17BF1FA9756200F67C06 /* JL_MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF17AE1FA9756200F67C06 /* JL_MainNavigationController.m */; };
+		A1EF17C01FA9756200F67C06 /* JL_MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF17B01FA9756200F67C06 /* JL_MainTabBarController.m */; };
+		A1EF17C21FA9756200F67C06 /* JL_PhotosSelectTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF17B91FA9756200F67C06 /* JL_PhotosSelectTool.m */; };
+		A1EF17C31FA9756200F67C06 /* JL_PhotosSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF17BC1FA9756200F67C06 /* JL_PhotosSelectViewController.m */; };
+		A1EF17C71FA9768F00F67C06 /* JL_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF17C61FA9768F00F67C06 /* JL_AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1EF178A1FA9750600F67C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1EF17691FA9750500F67C06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1EF17701FA9750500F67C06;
+			remoteInfo = JL_AlbumHelper;
+		};
+		A1EF17951FA9750600F67C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1EF17691FA9750500F67C06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1EF17701FA9750500F67C06;
+			remoteInfo = JL_AlbumHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1EF17711FA9750500F67C06 /* JL_AlbumHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JL_AlbumHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EF177D1FA9750500F67C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1EF17821FA9750500F67C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EF17831FA9750500F67C06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1EF17891FA9750600F67C06 /* JL_AlbumHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JL_AlbumHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EF178D1FA9750600F67C06 /* JL_AlbumHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JL_AlbumHelperTests.m; sourceTree = "<group>"; };
+		A1EF178F1FA9750600F67C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EF17941FA9750600F67C06 /* JL_AlbumHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JL_AlbumHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EF17981FA9750600F67C06 /* JL_AlbumHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JL_AlbumHelperUITests.m; sourceTree = "<group>"; };
+		A1EF179A1FA9750600F67C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EF17AA1FA9756200F67C06 /* JL_MainViewControllerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JL_MainViewControllerManager.h; sourceTree = "<group>"; };
+		A1EF17AB1FA9756200F67C06 /* JL_MainViewControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JL_MainViewControllerManager.m; sourceTree = "<group>"; };
+		A1EF17AD1FA9756200F67C06 /* JL_MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JL_MainNavigationController.h; sourceTree = "<group>"; };
+		A1EF17AE1FA9756200F67C06 /* JL_MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JL_MainNavigationController.m; sourceTree = "<group>"; };
+		A1EF17AF1FA9756200F67C06 /* JL_MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JL_MainTabBarController.h; sourceTree = "<group>"; };
+		A1EF17B01FA9756200F67C06 /* JL_MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JL_MainTabBarController.m; sourceTree = "<group>"; };
+		A1EF17B11FA9756200F67C06 /* JL_MainViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JL_MainViewControllers.h; sourceTree = "<group>"; };
+		A1EF17B81FA9756200F67C06 /* JL_PhotosSelectTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JL_PhotosSelectTool.h; sourceTree = "<group>"; };
+		A1EF17B91FA9756200F67C06 /* JL_PhotosSelectTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JL_PhotosSelectTool.m; sourceTree = "<group>"; };
+		A1EF17BB1FA9756200F67C06 /* JL_PhotosSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JL_PhotosSelectViewController.h; sourceTree = "<group>"; };
+		A1EF17BC1FA9756200F67C06 /* JL_PhotosSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JL_PhotosSelectViewController.m; sourceTree = "<group>"; };
+		A1EF17C51FA9768F00F67C06 /* JL_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JL_AppDelegate.h; sourceTree = "<group>"; };
+		A1EF17C61FA9768F00F67C06 /* JL_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JL_AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1EF176E1FA9750500F67C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EF17861FA9750600F67C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EF17911FA9750600F67C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1EF17681FA9750500F67C06 = {
+			isa = PBXGroup;
+			children = (
+				A1EF17731FA9750500F67C06 /* JL_AlbumHelper */,
+				A1EF178C1FA9750600F67C06 /* JL_AlbumHelperTests */,
+				A1EF17971FA9750600F67C06 /* JL_AlbumHelperUITests */,
+				A1EF17721FA9750500F67C06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1EF17721FA9750500F67C06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF17711FA9750500F67C06 /* JL_AlbumHelper.app */,
+				A1EF17891FA9750600F67C06 /* JL_AlbumHelperTests.xctest */,
+				A1EF17941FA9750600F67C06 /* JL_AlbumHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1EF17731FA9750500F67C06 /* JL_AlbumHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF17A71FA9756200F67C06 /* Classes */,
+				A1EF177D1FA9750500F67C06 /* Assets.xcassets */,
+				A1EF17821FA9750500F67C06 /* Info.plist */,
+				A1EF17831FA9750500F67C06 /* main.m */,
+			);
+			path = JL_AlbumHelper;
+			sourceTree = "<group>";
+		};
+		A1EF178C1FA9750600F67C06 /* JL_AlbumHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF178D1FA9750600F67C06 /* JL_AlbumHelperTests.m */,
+				A1EF178F1FA9750600F67C06 /* Info.plist */,
+			);
+			path = JL_AlbumHelperTests;
+			sourceTree = "<group>";
+		};
+		A1EF17971FA9750600F67C06 /* JL_AlbumHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF17981FA9750600F67C06 /* JL_AlbumHelperUITests.m */,
+				A1EF179A1FA9750600F67C06 /* Info.plist */,
+			);
+			path = JL_AlbumHelperUITests;
+			sourceTree = "<group>";
+		};
+		A1EF17A71FA9756200F67C06 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF17A81FA9756200F67C06 /* JL_Main */,
+				A1EF17B51FA9756200F67C06 /* JL_PhotoHelper */,
+				A1EF17B21FA9756200F67C06 /* JL_Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A1EF17A81FA9756200F67C06 /* JL_Main */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF17AC1FA9756200F67C06 /* ViewControllers */,
+				A1EF17A91FA9756200F67C06 /* Tools */,
+			);
+			path = JL_Main;
+			sourceTree = "<group>";
+		};
+		A1EF17A91FA9756200F67C06 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF17AA1FA9756200F67C06 /* JL_MainViewControllerManager.h */,
+				A1EF17AB1FA9756200F67C06 /* JL_MainViewControllerManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A1EF17AC1FA9756200F67C06 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF17AD1FA9756200F67C06 /* JL_MainNavigationController.h */,
+				A1EF17AE1FA9756200F67C06 /* JL_MainNavigationController.m */,
+				A1EF17AF1FA9756200F67C06 /* JL_MainTabBarController.h */,
+				A1EF17B01FA9756200F67C06 /* JL_MainTabBarController.m */,
+				A1EF17B11FA9756200F67C06 /* JL_MainViewControllers.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A1EF17B21FA9756200F67C06 /* JL_Others */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF17C41FA9768F00F67C06 /* AppDelegate */,
+			);
+			path = JL_Others;
+			sourceTree = "<group>";
+		};
+		A1EF17B51FA9756200F67C06 /* JL_PhotoHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF17BA1FA9756200F67C06 /* ViewControllers */,
+				A1EF17B61FA9756200F67C06 /* Models */,
+				A1EF17B71FA9756200F67C06 /* Tools */,
+				A1EF17BD1FA9756200F67C06 /* Views */,
+			);
+			path = JL_PhotoHelper;
+			sourceTree = "<group>";
+		};
+		A1EF17B61FA9756200F67C06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1EF17B71FA9756200F67C06 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF17B81FA9756200F67C06 /* JL_PhotosSelectTool.h */,
+				A1EF17B91FA9756200F67C06 /* JL_PhotosSelectTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A1EF17BA1FA9756200F67C06 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF17BB1FA9756200F67C06 /* JL_PhotosSelectViewController.h */,
+				A1EF17BC1FA9756200F67C06 /* JL_PhotosSelectViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A1EF17BD1FA9756200F67C06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1EF17C41FA9768F00F67C06 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF17C51FA9768F00F67C06 /* JL_AppDelegate.h */,
+				A1EF17C61FA9768F00F67C06 /* JL_AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1EF17701FA9750500F67C06 /* JL_AlbumHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EF179D1FA9750600F67C06 /* Build configuration list for PBXNativeTarget "JL_AlbumHelper" */;
+			buildPhases = (
+				A1EF176D1FA9750500F67C06 /* Sources */,
+				A1EF176E1FA9750500F67C06 /* Frameworks */,
+				A1EF176F1FA9750500F67C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JL_AlbumHelper;
+			productName = JL_AlbumHelper;
+			productReference = A1EF17711FA9750500F67C06 /* JL_AlbumHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1EF17881FA9750600F67C06 /* JL_AlbumHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EF17A01FA9750600F67C06 /* Build configuration list for PBXNativeTarget "JL_AlbumHelperTests" */;
+			buildPhases = (
+				A1EF17851FA9750600F67C06 /* Sources */,
+				A1EF17861FA9750600F67C06 /* Frameworks */,
+				A1EF17871FA9750600F67C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1EF178B1FA9750600F67C06 /* PBXTargetDependency */,
+			);
+			name = JL_AlbumHelperTests;
+			productName = JL_AlbumHelperTests;
+			productReference = A1EF17891FA9750600F67C06 /* JL_AlbumHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1EF17931FA9750600F67C06 /* JL_AlbumHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EF17A31FA9750600F67C06 /* Build configuration list for PBXNativeTarget "JL_AlbumHelperUITests" */;
+			buildPhases = (
+				A1EF17901FA9750600F67C06 /* Sources */,
+				A1EF17911FA9750600F67C06 /* Frameworks */,
+				A1EF17921FA9750600F67C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1EF17961FA9750600F67C06 /* PBXTargetDependency */,
+			);
+			name = JL_AlbumHelperUITests;
+			productName = JL_AlbumHelperUITests;
+			productReference = A1EF17941FA9750600F67C06 /* JL_AlbumHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1EF17691FA9750500F67C06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = JasonLee;
+				TargetAttributes = {
+					A1EF17701FA9750500F67C06 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					A1EF17881FA9750600F67C06 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1EF17701FA9750500F67C06;
+					};
+					A1EF17931FA9750600F67C06 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1EF17701FA9750500F67C06;
+					};
+				};
+			};
+			buildConfigurationList = A1EF176C1FA9750500F67C06 /* Build configuration list for PBXProject "JL_AlbumHelper" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1EF17681FA9750500F67C06;
+			productRefGroup = A1EF17721FA9750500F67C06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1EF17701FA9750500F67C06 /* JL_AlbumHelper */,
+				A1EF17881FA9750600F67C06 /* JL_AlbumHelperTests */,
+				A1EF17931FA9750600F67C06 /* JL_AlbumHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1EF176F1FA9750500F67C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EF177E1FA9750500F67C06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EF17871FA9750600F67C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EF17921FA9750600F67C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1EF176D1FA9750500F67C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EF17841FA9750500F67C06 /* main.m in Sources */,
+				A1EF17BE1FA9756200F67C06 /* JL_MainViewControllerManager.m in Sources */,
+				A1EF17C01FA9756200F67C06 /* JL_MainTabBarController.m in Sources */,
+				A1EF17BF1FA9756200F67C06 /* JL_MainNavigationController.m in Sources */,
+				A1EF17C71FA9768F00F67C06 /* JL_AppDelegate.m in Sources */,
+				A1EF17C31FA9756200F67C06 /* JL_PhotosSelectViewController.m in Sources */,
+				A1EF17C21FA9756200F67C06 /* JL_PhotosSelectTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EF17851FA9750600F67C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EF178E1FA9750600F67C06 /* JL_AlbumHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EF17901FA9750600F67C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EF17991FA9750600F67C06 /* JL_AlbumHelperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1EF178B1FA9750600F67C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1EF17701FA9750500F67C06 /* JL_AlbumHelper */;
+			targetProxy = A1EF178A1FA9750600F67C06 /* PBXContainerItemProxy */;
+		};
+		A1EF17961FA9750600F67C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1EF17701FA9750500F67C06 /* JL_AlbumHelper */;
+			targetProxy = A1EF17951FA9750600F67C06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1EF179B1FA9750600F67C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1EF179C1FA9750600F67C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1EF179E1FA9750600F67C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64X5T3CQP9;
+				INFOPLIST_FILE = JL_AlbumHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonlee.albumhelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1EF179F1FA9750600F67C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64X5T3CQP9;
+				INFOPLIST_FILE = JL_AlbumHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonlee.albumhelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1EF17A11FA9750600F67C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64X5T3CQP9;
+				INFOPLIST_FILE = JL_AlbumHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonlee.JL-AlbumHelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JL_AlbumHelper.app/JL_AlbumHelper";
+			};
+			name = Debug;
+		};
+		A1EF17A21FA9750600F67C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64X5T3CQP9;
+				INFOPLIST_FILE = JL_AlbumHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonlee.JL-AlbumHelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JL_AlbumHelper.app/JL_AlbumHelper";
+			};
+			name = Release;
+		};
+		A1EF17A41FA9750600F67C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64X5T3CQP9;
+				INFOPLIST_FILE = JL_AlbumHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonlee.JL-AlbumHelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JL_AlbumHelper;
+			};
+			name = Debug;
+		};
+		A1EF17A51FA9750600F67C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64X5T3CQP9;
+				INFOPLIST_FILE = JL_AlbumHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonlee.JL-AlbumHelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JL_AlbumHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1EF176C1FA9750500F67C06 /* Build configuration list for PBXProject "JL_AlbumHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EF179B1FA9750600F67C06 /* Debug */,
+				A1EF179C1FA9750600F67C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EF179D1FA9750600F67C06 /* Build configuration list for PBXNativeTarget "JL_AlbumHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EF179E1FA9750600F67C06 /* Debug */,
+				A1EF179F1FA9750600F67C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EF17A01FA9750600F67C06 /* Build configuration list for PBXNativeTarget "JL_AlbumHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EF17A11FA9750600F67C06 /* Debug */,
+				A1EF17A21FA9750600F67C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EF17A31FA9750600F67C06 /* Build configuration list for PBXNativeTarget "JL_AlbumHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EF17A41FA9750600F67C06 /* Debug */,
+				A1EF17A51FA9750600F67C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1EF17691FA9750500F67C06 /* Project object */;
+}
