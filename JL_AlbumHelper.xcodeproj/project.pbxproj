@@ -60,6 +60,7 @@
 		A1EF17BC1FA9756200F67C06 /* JL_PhotosSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JL_PhotosSelectViewController.m; sourceTree = "<group>"; };
 		A1EF17C51FA9768F00F67C06 /* JL_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JL_AppDelegate.h; sourceTree = "<group>"; };
 		A1EF17C61FA9768F00F67C06 /* JL_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JL_AppDelegate.m; sourceTree = "<group>"; };
+		A1FEDBC21FB08CB900D2B8F4 /* JL_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JL_PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +180,7 @@
 		A1EF17B21FA9756200F67C06 /* JL_Others */ = {
 			isa = PBXGroup;
 			children = (
+				A1FEDBC11FB08C7E00D2B8F4 /* Macro */,
 				A1EF17C41FA9768F00F67C06 /* AppDelegate */,
 			);
 			path = JL_Others;
@@ -234,6 +236,14 @@
 				A1EF17C61FA9768F00F67C06 /* JL_AppDelegate.m */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A1FEDBC11FB08C7E00D2B8F4 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				A1FEDBC21FB08CB900D2B8F4 /* JL_PrefixHeader.pch */,
+			);
+			path = Macro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -520,6 +530,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64X5T3CQP9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JL_AlbumHelper/Classes/JL_Others/Macro/JL_PrefixHeader.pch";
 				INFOPLIST_FILE = JL_AlbumHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasonlee.albumhelper;
@@ -535,6 +546,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64X5T3CQP9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JL_AlbumHelper/Classes/JL_Others/Macro/JL_PrefixHeader.pch";
 				INFOPLIST_FILE = JL_AlbumHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasonlee.albumhelper;
