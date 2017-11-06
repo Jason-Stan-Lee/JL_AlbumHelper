@@ -61,6 +61,7 @@
 		A1EF17C51FA9768F00F67C06 /* JL_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JL_AppDelegate.h; sourceTree = "<group>"; };
 		A1EF17C61FA9768F00F67C06 /* JL_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JL_AppDelegate.m; sourceTree = "<group>"; };
 		A1FEDBC21FB08CB900D2B8F4 /* JL_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JL_PrefixHeader.pch; sourceTree = "<group>"; };
+		A1FEDBC31FB08FD400D2B8F4 /* JL_MacroUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JL_MacroUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +242,7 @@
 		A1FEDBC11FB08C7E00D2B8F4 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				A1FEDBC31FB08FD400D2B8F4 /* JL_MacroUtils.h */,
 				A1FEDBC21FB08CB900D2B8F4 /* JL_PrefixHeader.pch */,
 			);
 			path = Macro;
