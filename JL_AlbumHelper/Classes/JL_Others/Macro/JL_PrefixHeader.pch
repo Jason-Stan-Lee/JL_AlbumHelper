@@ -9,7 +9,13 @@
 #ifndef JL_PrefixHeader_pch
 #define JL_PrefixHeader_pch
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+    #import <CoreGraphics/CoreGraphics.h>
+    #import <UIKit/UIKit.h>
+    #import "JL_MacroUtils.h"
+    #import "Masonry.h"
+    #import "UIImage+Image.h"
+    #import "UIView+Frame.h"
+#endif
 
 #endif /* JL_PrefixHeader_pch */

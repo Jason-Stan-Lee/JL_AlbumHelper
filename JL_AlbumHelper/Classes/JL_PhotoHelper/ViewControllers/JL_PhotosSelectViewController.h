@@ -6,9 +6,9 @@
 //  Copyright © 2017年 JasonLee. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "JL_BasicViewController.h"
 
-@interface JL_PhotosSelectViewController : UIViewController
+@interface JL_PhotosSelectViewController : JL_BasicViewController
 
 
 @end

@@ -14,6 +14,24 @@
 
 @implementation JL_MainTabBarController
 
++ (void)initialize {
+    
+    NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
+    attrs[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
+
+    NSMutableDictionary *attrSelected = [NSMutableDictionary dictionary];
+    attrSelected[NSForegroundColorAttributeName] = [UIColor grayColor];
+
+    if (@available(iOS 9.0, *)) {
+        UITabBarItem *item = [UITabBarItem appearanceWhenContainedInInstancesOfClasses:@[self]];
+        
+        [item setTitleTextAttributes:attrs forState:UIControlStateNormal];
+        [item setTitleTextAttributes:attrSelected forState:UIControlStateSelected];
+    } else {
+        // Fallback on earlier versions
+    }
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 }

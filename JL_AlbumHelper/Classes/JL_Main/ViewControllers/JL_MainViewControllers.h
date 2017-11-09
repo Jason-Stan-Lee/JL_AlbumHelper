@@ -11,5 +11,6 @@
 
 #import "JL_MainTabBarController.h"
 #import "JL_MainNavigationController.h"
+#import "JL_BasicViewController.h"
 
 #endif /* JL_ViewControllers_h */
